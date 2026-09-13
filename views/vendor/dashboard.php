@@ -4,6 +4,7 @@
     <div>
         <h1>Vendor Dashboard</h1>
         <p class="muted">Manage the medicines you supply to <?= e(APP_NAME) ?>.</p>
+        <p class="muted">Manage the medicines you supply to<?= e(APP_NAME) ?>.</p>
     </div>
 </section>
 
