@@ -1,4 +1,5 @@
 <?php
+// Author: Minhaz Hassan — Admin Module
 
 function category_all($type = "")
 {
