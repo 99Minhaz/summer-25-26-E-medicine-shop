@@ -41,7 +41,7 @@
                     </tr>
                 <?php endforeach; ?>
                 <?php if (count($orders) == 0): ?>
-                    <tr><td colspan="7" class="empty-state compact">No orders assigned to you yet.</td></tr>
+                    <tr><td colspan="7" class="empty-state compact">No orders are assigned to you.</td></tr>
                 <?php endif; ?>
             </tbody>
         </table>
