@@ -1,5 +1,7 @@
 <?php
 
+ // Author: Minhaz Hassan — Admin Module
+
 function admin_dashboard()
 {
     require_role("admin");
