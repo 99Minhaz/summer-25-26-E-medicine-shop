@@ -1,7 +1,7 @@
 <section class="auth-shell">
     <div class="panel narrow">
         <h1>Create Account</h1>
-        <p class="muted">Register as a customer, vendor, or delivery partner with secure password hashing.</p>
+        <p class="muted">Register as an admin or customer with secure password hashing.</p>
 
         <form method="post" class="stacked-form" data-validate="register" novalidate>
             <?= csrf_field() ?>
@@ -27,8 +27,7 @@
                 <span>Role</span>
                 <select name="role" required>
                     <option value="customer" <?= (($old['role'] ?? '') === 'customer') ? 'selected' : '' ?>>Customer</option>
-                    <option value="vendor" <?= (($old['role'] ?? '') === 'vendor') ? 'selected' : '' ?>>Vendor</option>
-                    <option value="delivery" <?= (($old['role'] ?? '') === 'delivery') ? 'selected' : '' ?>>Delivery</option>
+                    <option value="admin" <?= (($old['role'] ?? '') === 'admin') ? 'selected' : '' ?>>Admin</option>
                 </select>
                 <?php $name = 'role'; require BASE_PATH . '/views/layout/_error.php'; ?>
             </label>

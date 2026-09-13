@@ -171,7 +171,7 @@ function validate_registration($data)
         $errors["password"] = "Password must be at least 8 characters.";
     }
 
-    if (!in_array($data["role"], array("customer", "vendor", "delivery"), true)) {
+    if ($data["role"] != "admin" && $data["role"] != "customer") {
         $errors["role"] = "Choose a valid role.";
     }
 
