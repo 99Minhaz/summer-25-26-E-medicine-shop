@@ -1,3 +1,4 @@
+<!-- Author: Minhaz Hassan -->
 <nav class="subnav">
     <a href="<?= url('/admin') ?>">Dashboard</a>
     <a href="<?= url('/admin/medicines') ?>">Medicines</a>
