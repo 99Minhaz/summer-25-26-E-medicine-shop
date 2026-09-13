@@ -1,5 +1,5 @@
 <?php require BASE_PATH . '/views/admin/_nav.php'; ?>
-
+<!-- Author: Minhaz Hassan --> 
 <section class="section-head">
     <div>
         <h1>Category Management</h1>
