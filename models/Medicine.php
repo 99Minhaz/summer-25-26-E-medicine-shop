@@ -1,5 +1,5 @@
 <?php
-
+// Author: Minhaz Hassan — Admin Module
 function medicine_all($filters = array())
 {
     $sql = "SELECT medicines.*, categories.name AS category_name, categories.category_type
